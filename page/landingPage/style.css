@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a.nav-link {
+  color: #fff;
+}
+
+a.nav-link.active {
+  display: inline-block;
+  color: #faa300 !important;
+  font-weight: bold;
+}
+
+.box {
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.box img {
+  object-fit: cover;
+  left: 0;
+  border-radius: 15px;
+}
+
+#Ourteam {
+  background: linear-gradient(120deg, #343434 15%, #919262 110%, #9a9a9a 130%);
+}
+
+#Ourteam p.active {
+  color: #faa300;
+}
+
+#Ourteam span.active {
+  width: 75%;
+}
+
+.accordion {
+  margin: 50px auto;
+}
+
+.accordion-button {
+  background-color: black !important;
+  color: white !important;
+}
+
+.accordion-button:active,
+.accordion-button:focus,
+.accordion-button:not(.collapsed) {
+  background-color: black !important;
+  color: white !important;
+}
+
+.accordion-button {
+  background-color: rgb(255, 255, 255) !important;
+  color: #000000 !important;
+  position: relative;
+  box-shadow: none !important;
+}
+
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E") !important;
+  transition: all 0.5s;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E") !important;
+  filter: invert(1);
+}
