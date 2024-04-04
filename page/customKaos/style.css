@@ -34,9 +34,6 @@ body {
   background-color: #c88302;
 }
 
-.dropdown-menu {
-}
-
 #carouselExampleControls {
   height: 500px;
 }
@@ -78,7 +75,6 @@ h4 {
 }
 
 /* Style Form */
-
 /* Repsponsive */
 @media (max-width: 809px) {
   h1 {
@@ -87,23 +83,21 @@ h4 {
   #carouselExampleControls {
     height: 700px;
   }
-
   .card-testimoni {
     width: 100%;
   }
-
   .rate svg {
     width: 22px;
   }
-
   .profile-user {
     width: 50px;
     height: 50px;
   }
 }
-
 @media (min-width: 810px) and (max-width: 1279px) {
   #carouselExampleControls {
     height: 400px;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
