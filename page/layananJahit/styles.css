@@ -33,7 +33,7 @@
   height: 80px;
   width: 80px;
   border-radius: 100px;
-  background-color: #fcfaf1;
+  background-color: #FCFAF1;
   overflow: hidden;
 }
 .profile-user img {
@@ -60,6 +60,30 @@
 
 h4 {
   color: #faa300;
+}
+
+.btn-pesan-sekarang {
+  background-color: #faa300;
+}
+
+.a-title-pesan {
+  color: #fff;
+}
+
+.card1 {
+  color: #FCFAF1;
+  background-image: url("https://i.pinimg.com/564x/64/0f/45/640f4556172f96cabada6e519ffbcce8.jpg");
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+}
+
+.gradasi {
+  background-image: linear-gradient(to top, black, transparent);
+}
+
+.tgl-color {
+  color: rgba(252, 250, 241, 0.8);
 }
 
 @media (max-width: 809px) {
