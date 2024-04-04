@@ -17,6 +17,20 @@
   border-radius: 10px;
 }
 
+.btn-kirim {
+  background-color: #FAA300;
+  height: 48px;
+  color: white;
+}
+
+.btn-kosong {
+  height: 48px;
+}
+
+.gutter {
+  --bs-gutter-x: 0;
+}
+
 #carouselExampleControls {
   height: 500px;
 }
