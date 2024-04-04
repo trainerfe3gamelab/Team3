@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  background-color: #343434;
+  height: 80px;
+}
+
+nav div {
+  background-color: #343434;
+}
+
+nav .navbar-nav {
+  background-color: #343434;
+}
+
+nav .navbar-nav .nav-link {
+  color: #fff;
+}
+
+nav .navbar-nav .nav-link.active {
+  display: inline-block;
+  color: #faa300 !important;
+  font-weight: bold;
+}
+
+header .btn-order {
+  background-color: #faa300 !important;
+}
+
+header .btn-order a {
+  color: #fff;
+}
+
+#Layanan a {
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+#Layanan a h3 {
+  color: #fff;
+}
+
+#Layanan a p {
+  color: #fff;
+}
+
+#Layanan a.jahit {
+  background-image: url("../../assets/img/layanan/jahit.jpg");
+}
+
+#Layanan a.kaos {
+  background-image: url("../../assets/img/layanan/kaos.jpg");
+}
+
+#Layanan a.sewa {
+  background-image: url("../../assets/img/layanan/sewa.jpg");
+}
+
+#Tim {
+  background: linear-gradient(120deg, #343434 15%, #919262 110%, #9a9a9a 130%);
+  color: #fff;
+}
+
+#Tim .info-tim p {
+  text-align: justify;
+}
+
+#Tim .nav-tim {
+  gap: 24px;
+}
+
+#Tim .nav-tim p {
+  color: #fff;
+}
+
+#Tim .nav-tim p.active {
+  color: #faa300;
+}
+
+#Tim .nav-tim span {
+  height: 3px;
+  background-color: #faa300;
+}
+
+#Tim .nav-tim span.active {
+  width: 75%;
+}
+
+#FAQs .accordion {
+  margin: 50px auto;
+}
+
+#FAQs .accordion .accordion-item {
+  border: 2px solid #8a8a8a;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+#FAQs .accordion .accordion-button {
+  background-color: transparent;
+  color: #343434;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+  box-shadow: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#FAQs .accordion .accordion-button:active,
+#FAQs .accordion .accordion-button:focus,
+#FAQs .accordion .accordion-button:not(.collapsed) {
+  background-color: black !important;
+  color: white !important;
+}
+
+#FAQs .accordion .accordion-button::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E") !important;
+  transition: all 0.5s;
+}
+
+#FAQs .accordion .accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E") !important;
+  filter: invert(1);
+}
+
+#FAQs .accordion .accordion-body {
+  background: #e6e3e3;
+  border-radius: 0.45rem;
+}
+
+footer {
+  background-color: #343434;
+  color: #fff;
+}
+
+footer input[type="text"] {
+  padding: 12px;
+  background-color: rgba(217, 217, 217, 0.2);
+  box-sizing: border-box;
+  outline: none;
+  color: #fff;
+}
+
+footer .btn-kirim {
+  background-color: #faa300;
+  color: #fff;
+}

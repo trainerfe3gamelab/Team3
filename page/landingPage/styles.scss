@@ -1,0 +1,167 @@
+$primary-color: #faa300;
+$light-color: #fff;
+$light-color-v2: #fcfaf1;
+$dark-color: #343434;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+// Nav
+nav {
+  background-color: $dark-color;
+  height: 80px;
+
+  div {
+    background-color: $dark-color;
+  }
+
+  .navbar-nav {
+    background-color: $dark-color;
+    .nav-link {
+      color: $light-color;
+    }
+    .nav-link.active {
+      display: inline-block;
+      color: $primary-color !important;
+      font-weight: bold;
+    }
+  }
+}
+
+// Header
+header {
+  .btn-order {
+    background-color: $primary-color !important;
+    a {
+      color: $light-color;
+    }
+  }
+}
+
+// Layanan
+#Layanan {
+  a {
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    text-decoration: none;
+    h3 {
+      color: $light-color;
+    }
+    p {
+      color: $light-color;
+    }
+  }
+
+  a.jahit {
+    background-image: url("../../assets/img/layanan/jahit.jpg");
+  }
+  a.kaos {
+    background-image: url("../../assets/img/layanan/kaos.jpg");
+  }
+  a.sewa {
+    background-image: url("../../assets/img/layanan/sewa.jpg");
+  }
+}
+
+// Tentang
+
+// Tim Kami
+#Tim {
+  background: linear-gradient(
+    120deg,
+    $dark-color 15%,
+    #919262 110%,
+    #9a9a9a 130%
+  );
+  color: $light-color;
+  .info-tim p {
+    text-align: justify;
+  }
+  .nav-tim {
+    gap: 24px;
+    p {
+      color: $light-color;
+    }
+
+    p.active {
+      color: $primary-color;
+    }
+
+    span {
+      height: 3px;
+      background-color: $primary-color;
+    }
+
+    span.active {
+      width: 75%;
+    }
+  }
+}
+
+// FAQs
+#FAQs {
+  .accordion {
+    margin: 50px auto;
+
+    .accordion-item {
+      border: 2px solid #8a8a8a;
+      border-radius: 0.25rem;
+      margin-bottom: 1rem;
+    }
+
+    .accordion-button {
+      background-color: transparent;
+      color: $dark-color;
+      outline: none;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      font-weight: 500;
+      box-shadow: none;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .accordion-button:active,
+    .accordion-button:focus,
+    .accordion-button:not(.collapsed) {
+      background-color: black !important;
+      color: white !important;
+    }
+
+    .accordion-button::after {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E") !important;
+      transition: all 0.5s;
+    }
+
+    .accordion-button:not(.collapsed)::after {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E") !important;
+      filter: invert(1);
+    }
+
+    .accordion-body {
+      background: #e6e3e3;
+      border-radius: 0.45rem;
+    }
+  }
+}
+
+// Footer
+footer {
+  background-color: $dark-color;
+  color: $light-color;
+
+  input[type="text"] {
+    padding: 12px;
+    background-color: rgba(217, 217, 217, 0.2);
+    box-sizing: border-box;
+    outline: none;
+    color: $light-color;
+  }
+
+  .btn-kirim {
+    background-color: $primary-color;
+    color: $light-color;
+  }
+}
