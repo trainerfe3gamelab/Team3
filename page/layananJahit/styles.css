@@ -1,9 +1,3 @@
-:root {
-  --primary-color: #faa300;
-  --light-color: #fff;
-  --dark-color: #343434;
-}
-
 .container-galery {
   width: 100%;
   margin: 20px auto;
@@ -65,7 +59,7 @@
 }
 
 h4 {
-  color: var(--primary-color);
+  color: #faa300;
 }
 
 @media (max-width: 809px) {

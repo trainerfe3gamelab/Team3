@@ -2,11 +2,7 @@ $primary-color: #faa300;
 $light-color: #fff;
 $dark-color: #343434;
 
-:root {
-  --primary-color: #{$primary-color};
-  --light-color: #{$light-color};
-  --dark-color: #{$dark-color};
-}
+
 
 .container-galery {
   width: 100%;
@@ -66,7 +62,7 @@ $dark-color: #343434;
 }
 
 h4 {
-  color: var(--primary-color);
+  color: $primary-color;
 }
 
 @media (max-width: 809px) {
