@@ -1,33 +1,51 @@
-.container-galery {
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #fff;
+}
+
+.card-img-top {
+  height: 300px;
   width: 100%;
-  margin: 20px auto;
-  columns: 4;
-  column-gap: 20px;
+  object-fit: cover;
+  object-position: top;
 }
 
-.container-galery .box-img {
-  width: 100%;
-  margin-bottom: 20px;
-  break-inside: avoid;
-}
-
-.container-galery .box-img img {
-  max-width: 100%;
-  border-radius: 10px;
-}
-
-.btn-kirim {
+.btn.dropdown-toggle {
   background-color: #faa300;
-  height: 48px;
-  color: #fff !important;
+  color: white;
+  border: none;
 }
 
-.btn-kosong {
-  height: 48px;
+.btn-check:focus + .btn,
+.btn:focus {
+  box-shadow: none;
+  background-color: #c88302;
 }
 
-.gutter {
-  --bs-gutter-x: 0;
+.card-testimoni {
+  color: #fff;
+  background-image: url("https://i.pinimg.com/564x/64/0f/45/640f4556172f96cabada6e519ffbcce8.jpg");
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+}
+
+.card-testimoni .box-shad {
+  background-image: linear-gradient(to top, black, transparent);
+}
+
+.card-testimoni span {
+  color: rgba(252, 250, 241, 0.8);
+}
+
+.info-pemesanan {
+  background-color: #343434;
+  color: #fff;
 }
 
 #carouselExampleControls {
@@ -60,40 +78,22 @@
   font-size: 14px;
 }
 
-/* Form Style */
-.card-img-top {
-  height: 300px;
-  width: 100%;
-  object-fit: cover;
-  object-position: top;
-}
-
 h4 {
   color: #faa300;
 }
 
-.btn-pesan-sekarang {
+.btn-kirim {
   background-color: #faa300;
+  height: 48px;
+  color: #fff !important;
 }
 
-.a-title-pesan {
-  color: #fff;
+.btn-kosong {
+  height: 48px;
 }
 
-.card1 {
-  color: #fcfaf1;
-  background-image: url("https://i.pinimg.com/564x/64/0f/45/640f4556172f96cabada6e519ffbcce8.jpg");
-  background-size: cover;
-  background-position: center;
-  box-sizing: border-box;
-}
-
-.gradasi {
-  background-image: linear-gradient(to top, black, transparent);
-}
-
-.tgl-color {
-  color: rgba(252, 250, 241, 0.8);
+.gutter {
+  --bs-gutter-x: 0;
 }
 
 @media (max-width: 809px) {

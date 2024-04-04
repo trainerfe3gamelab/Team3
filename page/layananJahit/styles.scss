@@ -1,9 +1,7 @@
 $primary-color: #faa300;
 $light-color: #fff;
-$light-color-v2: #FCFAF1;
+$light-color-v2: #fcfaf1;
 $dark-color: #343434;
-
-
 
 .container-galery {
   width: 100%;
@@ -23,15 +21,17 @@ $dark-color: #343434;
   }
 }
 
-.btn-kirim{
-    background-color: #FAA300; height: 48px; color: white;
+.btn-kirim {
+  background-color: $primary-color;
+  height: 48px;
+  color: $light-color !important;
 }
-.btn-kosong{
-    height: 48px;
+.btn-kosong {
+  height: 48px;
 }
 
-.gutter{
-    --bs-gutter-x: 0;
+.gutter {
+  --bs-gutter-x: 0;
 }
 
 #carouselExampleControls {
@@ -66,7 +66,6 @@ $dark-color: #343434;
 
 /* Form Style */
 .card-img-top {
-  /* border-radius: 8px 8px 0 0; */
   height: 300px;
   width: 100%;
   object-fit: cover;
@@ -77,28 +76,28 @@ h4 {
   color: $primary-color;
 }
 
-.btn-pesan-sekarang{
-    background-color: $primary-color;
+.btn-pesan-sekarang {
+  background-color: $primary-color;
 }
 
-.a-title-pesan{
-    color: $light-color;
+.a-title-pesan {
+  color: $light-color;
 }
 
-.card1{
-    color: $light-color-v2; 
-    background-image: url('https://i.pinimg.com/564x/64/0f/45/640f4556172f96cabada6e519ffbcce8.jpg'); 
-    background-size: cover; 
-    background-position: center; 
-    box-sizing: border-box;
+.card1 {
+  color: $light-color-v2;
+  background-image: url("https://i.pinimg.com/564x/64/0f/45/640f4556172f96cabada6e519ffbcce8.jpg");
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
 }
 
-.gradasi{
-    background-image:linear-gradient(to top, black, transparent);
+.gradasi {
+  background-image: linear-gradient(to top, black, transparent);
 }
 
-.tgl-color{
-    color: rgba(252, 250, 241, 0.8);
+.tgl-color {
+  color: rgba(252, 250, 241, 0.8);
 }
 
 @media (max-width: 809px) {

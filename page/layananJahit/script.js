@@ -14,9 +14,6 @@ $(document).ready(function () {
     // Format pesan WhatsApp
     var message =
       "Halo, saya ingin memesan:\n" +
-      "Kaos: " +
-      barang +
-      "\n" +
       "Nama: " +
       nama +
       "\n" +
@@ -27,10 +24,7 @@ $(document).ready(function () {
       tgl_lahir +
       "\n" +
       "Jabatan: " +
-      jabatan +
-      "\n" +
-      "Jumlah Pesanan: " +
-      sum;
+      jabatan;
 
     // Membuat URL untuk WhatsApp
     var whatsapp_url =
