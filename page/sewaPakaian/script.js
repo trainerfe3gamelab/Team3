@@ -14,6 +14,7 @@ $(document).ready(function () {
     let telp = $("#telp").val();
     let tgl_lahir = $("#tgl").val();
     let jabatan = $("#jabatan").val();
+    let size = $("#size").val();
     let durasi = $("#durasi").val();
     let sum = $("#sum").val();
 
@@ -34,6 +35,9 @@ $(document).ready(function () {
       "\n" +
       "Jabatan: " +
       jabatan +
+      "\n" +
+      "Ukuran: " +
+      size +
       "\n" +
       "Durasi Sewa (Hari): " +
       durasi +

@@ -4,12 +4,10 @@ $(document).ready(function () {
     event.preventDefault();
 
     // Menangkap nilai dari input form
-    let barang = $(".card-title").text();
     let nama = $("#nama").val();
     let telp = $("#telp").val();
-    let tgl_lahir = $("#tgl").val();
+    let tgl = $("#tgl").val();
     let jabatan = $("#jabatan").val();
-    let sum = $("#sum").val();
 
     // Format pesan WhatsApp
     var message =
@@ -20,8 +18,8 @@ $(document).ready(function () {
       "No. Telpon: " +
       telp +
       "\n" +
-      "Tanggal Lahir: " +
-      tgl_lahir +
+      "Tanggal Booking Proses: " +
+      tgl +
       "\n" +
       "Jabatan: " +
       jabatan;
