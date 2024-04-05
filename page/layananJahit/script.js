@@ -28,7 +28,7 @@ $(document).ready(function () {
 
     // Membuat URL untuk WhatsApp
     var whatsapp_url =
-      "https://api.whatsapp.com/send?phone=6285156262237&text=" +
+      "https://api.whatsapp.com/send?phone=6285711064566&text=" +
       encodeURIComponent(message);
 
     // Buka halaman WhatsApp dalam tab baru
